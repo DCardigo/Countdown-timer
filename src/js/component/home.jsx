@@ -11,23 +11,35 @@ const Home = () => {
 			backgroundSize: 'cover',
 			height: '100vh'
 		}}>
-			<h1 className="text-center">Hello </h1>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-			<div className="card" style={{width: "18rem"}}>
-				<img src="..." className="card-img-top" alt="..."/>
-					<div className="card-body">
-						<h5 className="card-title">Card title</h5>
-						<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" className="btn btn-primary">Go somewhere</a>
+			<h3 className="count text-center">-- countdown to -- </h3>
+			<h1 className="new text-center">New Year</h1>
+
+			<div class="container" id="contador">
+				<div class="row">
+					<div class="col">
+						<h1>1</h1>
+						<div>meses</div>
 					</div>
+					<div class="col">
+						<h1>2</h1>
+						<div>días</div>
+					</div>
+					<div class="col">
+						<h1>1</h1>
+						<div>horas</div>
+					</div>
+					<div class="col">
+						<h1>1</h1>
+						<div>minutos</div>
+					</div>
+					<div class="col">
+						<h1>1</h1>
+						<div>segundos</div>
+					</div>
+				</div>
 			</div>
+
+
 		</div>
 	);
 };

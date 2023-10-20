@@ -1,0 +1,21 @@
+*{
+color: rgb(33, 48, 53);
+}
+
+
+.count{
+    position: relative;
+    top: 5rem;
+}
+
+.new{
+    position: relative;
+    top: 5rem;
+    font-size: 40px;
+}
+
+#contador{
+    position: relative;
+    top: 12rem;
+
+}
