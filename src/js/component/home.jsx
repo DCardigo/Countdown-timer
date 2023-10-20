@@ -9,9 +9,9 @@ const Home = () => {
 		<div className="text-center" style={{ 
 			backgroundImage: `url(${fondo})`,
 			backgroundSize: 'cover',
-			height: '600vh'
+			height: '100vh'
 		  }}>
-			<h1 className="text-center">Hello Rigo!</h1>
+			<h1 className="text-center">Hello </h1>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
