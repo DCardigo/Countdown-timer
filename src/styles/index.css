@@ -1,0 +1,36 @@
+*{
+color: rgb(21, 63, 70);
+}
+
+h2{
+    font-size: 80px;
+}
+
+.count{
+    position: relative;
+    top: 11rem;
+}
+
+.new{
+    position: relative;
+    top: 11rem;
+    font-size: 40px;
+}
+
+#contador{
+    position: relative;
+    top: 11rem;
+
+}
+
+@media (max-width: 600px) {
+
+    h2{
+        font-size: 105px;
+    }
+    #contador{
+        position: relative;
+        top: 17rem;
+    
+    }
+}
