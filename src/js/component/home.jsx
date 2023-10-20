@@ -1,13 +1,17 @@
 import React from "react";
+import fondo from '../../img/fondo.jpg';
+
+
 
 
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				
-			</p>
+		<div className="text-center" style={{ 
+			backgroundImage: `url(${fondo})`,
+			backgroundSize: 'cover',
+			height: '600vh'
+		  }}>
+			<h1 className="text-center">Hello Rigo!</h1>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
