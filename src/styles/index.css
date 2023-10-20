@@ -1,5 +1,12 @@
 *{
-color: rgb(21, 63, 70);
+color: rgb(22, 57, 57);
+}
+#fondo{
+    background-color: antiquewhite;
+    opacity: 40%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 h2{
@@ -14,7 +21,7 @@ h2{
 .new{
     position: relative;
     top: 11rem;
-    font-size: 40px;
+    font-size: 53px;
 }
 
 #contador{
@@ -24,6 +31,15 @@ h2{
 }
 
 @media (max-width: 600px) {
+
+    .count{
+        position: relative;
+        top: 16rem;
+    }
+    .new{
+        position: relative;
+        top: 16rem;
+    }
 
     h2{
         font-size: 105px;

@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
-import fondo from '../../img/fondo.jpg';
+import fondo1 from '../../img/fondo.jpg';
+import fondo2 from '../../img/pexels-inga-seliverstova-3394222.jpg';
+import fondo3 from '../../img/pexels-inga-seliverstova-3394288.jpg';
+import fondo4 from '../../img/pexels-rakicevic-nenad-769525.jpg';
 
 
 const Home = () => {
@@ -23,14 +26,19 @@ const Home = () => {
 		return () => clearInterval(interval);
 	}, []);
 
+
+
 	return (
 		<div className="text-center" style={{
-			backgroundImage: `url(${fondo})`,
+			backgroundImage: `url(${fondo4})`,
 			backgroundSize: 'cover',
-			height: '100vh'
+			height: '100vh',
+			// backgroundImage::before
 		}}>
-			<h3 className="count text-center">-- countdown to -- </h3>
-			<h1 className="new text-center">New Year</h1>
+			<div id="fondo"></div>
+			
+			<h3 className="count text-center">-- cuenta atrás para -- </h3>
+			<h1 className="new text-center">Año Nuevo</h1>
 
 			<div className="container" id="contador">
 				<div className="row">
