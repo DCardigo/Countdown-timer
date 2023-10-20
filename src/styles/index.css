@@ -1,6 +1,7 @@
 *{
 color: rgb(22, 57, 57);
 }
+
 #fondo{
     background-color: antiquewhite;
     opacity: 40%;
@@ -48,5 +49,12 @@ h2{
         position: relative;
         top: 17rem;
     
+    }
+    #fondo{
+        background-color: antiquewhite;
+        opacity: 40%;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
 }
