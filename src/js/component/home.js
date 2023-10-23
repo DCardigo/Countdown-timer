@@ -33,10 +33,11 @@ const Home = () => {
 			backgroundImage: `url(${fondo4})`,
 			backgroundSize: 'cover',
 			height: '100vh',
+			width: '100vw'
 			// backgroundImage::before
 		}}>
 			<div id="fondo"></div>
-			
+
 			<h3 className="count text-center">-- cuenta atrás para -- </h3>
 			<h1 className="new text-center">Año Nuevo</h1>
 
