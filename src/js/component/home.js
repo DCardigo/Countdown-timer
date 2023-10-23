@@ -15,8 +15,8 @@ const Home = () => {
 	const Segundos = tiempoTotal % 60;
 	const Minutos = Math.floor((tiempoTotal / 60) % 60);
 	const Horas = Math.floor((tiempoTotal / 3600) % 24);
-	const Dias = Math.floor(tiempoTotal / 86400);
-	const Meses = Math.floor(tiempoTotal / 2629743);
+	const Dias = Math.floor((tiempoTotal / 86400) % 31);
+	const Meses = Math.floor((tiempoTotal / 2629743) % 12);
 
 	useEffect(() => {
 		setTiempoTotal(diferenciaEnSegundos)
